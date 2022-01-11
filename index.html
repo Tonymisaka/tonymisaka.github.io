@@ -6,12 +6,22 @@
         <title>
             TonyMisaka's Web
         </title>
-        
+        <style>
+         a{
+               text-decoration: none;
+         }
+
+        </style>
   </head>
-     <!--大标题-->
+  <body>
+     <!--导航栏-->
       <div>
-        <img src="./LOFO.png" height="110px" width="390px">
-      
+        <img src="./LOFO.png" height="110px" width="390px" style="vertical-align: middle;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./index.html" style="vertical-align: middle; font-size: 30px">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./TechBlog.html" style="vertical-align: middle; font-size: 30px">综合技术博客</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="LifeBlog.html" style="vertical-align: middle; font-size: 30px">日常生活博客</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#author" style="vertical-align: middle; font-size: 30px">关于作者</a>
+
         <h1 style="text-align: center; color: rgb(41, 107, 168); margin-top: 5px; ">
           Welcome to the Personal Web Page of Haitian Xu 
         </h1>
@@ -27,21 +37,7 @@
         <input type="image" src="./bili.png" onclick="window.open('https://space.bilibili.com/32387866')" style="vertical-align: middle;" height="80px" width="230px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="image" src="./GitHub-Emblem.png" onclick="window.open('https://github.com/Tonymisaka')" style="vertical-align: middle;" height="110px" width="230px">
       </div>
-    
-      <!--内嵌技术博客页-->
-      <div style="text-align: center;">
-       <iframe src="./TechBlog.html" width="80%" height="700" name="blog"></iframe>    
-      </div>
-
-      <!--内嵌生活博客页-->
-      <div style="text-align:center; margin-top: 100px;">
-       <iframe src="./LifeBlog.html" width="80%" height="700" name="blog"></iframe>   
-      </div>
      
-      <!--内嵌外链时钟-->
-      <div style="text-align: center; margin-top: 100px;">
-          <iframe src="https://vclock.com/ " width="60%" height="300" name="clock"></iframe>          
-      </div>
     
       <!--代码展示-->
       <div>
@@ -49,16 +45,22 @@
         Here are the code of this page [Latest in 2022.1.10]
         </h3>
          <h3 style="color: rgb(255, 255, 255); text-align: center; text-shadow:3px 3px 3px black;">
-           这是一个本页代码展示视频
+           这是本页代码展示视频
         </h3>
         <div style="text-align: center; ">
           <video src="./codeR.mp4" width=80% controls="controls">代码展示</video>
         </div>
       </div>
 
-      <!--music《only my railgun》-->
+      <!--musicIntro + music《only my railgun》-->
       <div>
-       <h3 style="color: rgb(41, 107, 168); text-align: center;margin-top: 100px;">
+        <h2 style="color: rgb(79, 41, 168); text-align: center;margin-top: 120px; ">
+           Please enjoy Haitian Xu's favourite music
+        </h2>
+        <h2 style="color: rgb(255, 255, 255); text-align: center; text-shadow:3px 3px 3px black;">
+           请欣赏徐海天最爱的几首音乐
+        </h2>
+       <h3 style="color: rgb(41, 107, 168); text-align: center;margin-top: 70px;">
          "Only My Railgun"
        </h3>
        <h3 style="text-align: center;">
@@ -68,6 +70,12 @@
         <audio src="./railgun.mp3" controls="controls">
         《Only My Railgun》
         </audio>
+        <div>
+          <a href="./railgun.mp3" download>
+            <br>
+            <img src="./downLoad.png" width="150">
+          </a>
+        </div>
        </div>
       </div>
 
@@ -83,6 +91,12 @@
          <audio src="./nothing.mp3" controls="controls">
           《なんでもないや没什么大不了的》
          </audio>
+          <div>
+            <a href="./nothing.mp3" download>
+              <br>
+              <img src="./downLoad.png" width="150">
+            </a>
+          </div>
         </div>
        </div>
 
@@ -98,11 +112,17 @@
          <audio src="./dislocation.mp3" controls="controls">
           《错位时空》
          </audio>
+          <div>
+            <a href="./dislocation.mp3" download>
+              <br>
+              <img src="./downLoad.png" width="150">
+            </a>
+          </div>
         </div>
        </div>
       
       <!--关于作者-->
-      <div>
+      <div id="author">
         <hr style="margin-top: 100px;">
         <h2 style="text-align: center; color: rgb(77, 77, 77);">
           About the author<br>
@@ -140,6 +160,8 @@
            [1.7.2022] "add technical blog iframe page to the front of the page" "add life blog page to the page" “Add about author Page"<br>
            [1.9.2022] "add new song to page and delete one song" "update divdion(div) element to replace p element" <br>
            [1.10.2022] "Update video size to fit for different window ratio" "remove the Bing iframe page" "Replace old video with new code display"
+           "Add raw directive bar and remove the iframe Technical blog to two links" "add about author to the raw bar" "Update download function of the music"
+           "remove the colock iframe page"
          </p>
         </div>
       </div>
