@@ -3,6 +3,23 @@
 <head>
   <title>TestPage</title>
   <meta charset="utf-8">
+
+
+
+
+  <style>
+   form{
+
+    font-size: 20px;
+   }
+   input:focus{
+    border-color: rgb(255, 255, 255);
+
+    outline:0;
+
+   }
+
+  </style>
 </head>
 <body>
 <!--测试原件标题-->
@@ -16,11 +33,126 @@
     <img src="baidu.png" width="200px"><br>
     <b>Baidu搜索</b>
   </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.baidu.com">
-    <img src="baidu.png" width="200px"><br>
-    <b>Baidu搜索</b>
-  </a>
 </div>
+
+
+<!--这是一个表格-->
+<div >
+  <table style="width: 1000; margin:0 auto" >
+    <caption>
+      这是一个表格
+    </caption>
+    <colgroup>
+      <col style="background-color: rgb(81, 88, 88);">
+      <col span="2" style="background-color: rgb(134, 131, 131);">
+      <col style="background-color: rgb(211, 211, 208);">
+
+    </colgroup>
+    <thead>
+      <tr>
+        <th>
+          <img src="./bili.png" width=100px>
+        </th>
+        <th>
+          第二部分
+        </th>
+        <th>
+          第三部分
+        </th>
+        <th>
+          第四部分
+        </th>
+     </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+       <td>40</td>
+       <td>50</td>
+       <td>60</td>
+       <td>70</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>90</td>
+      <td>100</td>
+      <td>110</td>
+    </tr>
+    </tbody>
+     
+    <tfoot>
+      <tr>
+        <td>120</td>
+        <td>130</td>
+        <td>140</td>
+        <td>150</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<!--这是一个列表-->
+<ul style="list-style-type: circle;">
+  <li>这是一个列表的第一项</li>
+  <li>第二行</li>
+</ul>
+
+<ol type="">
+  <li>有序行</li>
+  <li>有序行</li>
+  <li>有序行</li>
+</ol>
+
+<dl>
+  <dt>
+   一行定义列表键
+  </dt>
+  <dd>
+   一行定义列表值
+
+  </dd>
+
+</dl>
+<form >
+   账号:<input type="text" name="email"><br>
+   密码:<input type="password" name="lastname"><br>
+   <input type="submit" name="submit" value="登录">
+
+</form>
+<br>
+<form >
+  账号:<input type="text" name="email"><br>
+  密码:<input type="password" name="lastname"><br>
+  <input type="submit" name="submit" value="登录">
+
+  <!--表单使用百度搜索试验-->
+</form>
+<div style="text-align: center;">
+  <form action="https://www.baidu.com/s" target="_blank">
+      <img src="./baiduCon.png" width="30px" style="margin-bottom: -9px;">&nbsp;
+      
+      <input type="text" name="wd" placeholder="    请输入搜索内容 Please enter the search keyword"style="border-radius:30px;
+      height: 30px;
+      width:40%;
+     background-color: rgb(243, 241, 241);
+     border:0px;
+     box-shadow: rgb(216, 216, 216)  2px 2px 2px;">
+
+      <input type="submit" name="submit" value="Search 搜索" style="    
+      border-radius:30px;
+      height: 30px;
+      width:90px;
+      border:9px;
+     background-color: rgb(233, 232, 232);
+     box-shadow: rgb(255, 255, 255) 2px 2px 2px;
+
+     ">
+
+  </form>
+
+</div>
+
 
 </body>
 </html>
