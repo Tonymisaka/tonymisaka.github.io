@@ -13,6 +13,16 @@
           background-attachment: fixed;
           background-size: 100% 100%;
          }
+         form
+          {
+          font-size: 20px;
+          }
+          input:focus
+          {
+            border-color: rgb(255, 255, 255);
+             outline:0;
+           }
+
          a{
                text-decoration: none;
                color: rgb(92, 58, 146);
@@ -21,6 +31,7 @@
         </style>
   </head>
   <body>
+    
      <!--导航栏-->
       <div>
          <div>
@@ -52,32 +63,61 @@
         </h1>
       </div>
 
+<!--表单使用百度搜索试验-->
+</form>
+<div style="text-align: center; margin-top: 10%;">
+  <form action="https://www.baidu.com/s" target="_blank">
+      <img src="./baiduCon.png" width="40px" style="margin-bottom: -12px;">&nbsp;&nbsp;
+      
+      <input type="text" name="wd" placeholder="    请输入搜索内容 Please enter the search keyword"style="
+      border-radius:80px;
+      height: 55px;
+      width:60%;
+      background-color: rgb(255, 255, 255);
+     border:0px;
+     box-shadow: rgb(216, 216, 216)  0px 0px 8px;">
+     &nbsp;
+
+      <input type="submit" name="submit" value="Search 搜索" style="  
+      margin-bottom: -9px;  
+      border-radius:50px;
+      height: 50px;
+      width:100px;
+      border:9px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: rgb(211, 211, 211) 0px 0px 8px;
+
+     ">
+  </form>
+
+</div>
+
       <!--个人网页指引-->
-      <div style="text-align: center; margin-top: 12%; margin-bottom: 17%;"> 
-         <div style="display:inline-block; vertical-align: middle; margin-left: 80px; margin-right: 80px;">
+      <div style="text-align: center; margin-top: 15%; margin-bottom: 10%;"> 
+         <div style="display:inline-block; vertical-align: middle; margin-left: 4%; margin-right: 4%;">
            <a href="https://www.google.com" target="_blank">
-             <img src="./google.png" width="180px">
+             <img src="./google.png" width="150px">
            </a>
            <p>Google Search</p>
          </div>
 
-         <div style="display:inline-block; vertical-align: middle; margin-left: 80px; margin-right: 80px;">
-          <a href="https://www.baidu.com/" target="_blank">
-            <img src="./baidu.png" width="200px">
+         <div style="display:inline-block; vertical-align: middle; margin-left: 4%; margin-right:4%;">
+          <a href="https://www.youtube.com/channel/UC87VYwjm66ghq5DVzir2dBA" target="_blank">
+            <img src="./youtube.png" width="220px">
           </a>
-          <p >Baidu Search</p>
+          <p >Youtube Homepage</p>
          </div>
 
-         <div style="display:inline-block; vertical-align: middle; margin-left: 80px; margin-right: 80px;">
+         <div style="display:inline-block; vertical-align: middle; margin-left: 4%; margin-right: 4%;">
           <a href="https://space.bilibili.com/32387866" target="_blank">
-            <img src="./bili.png" width="200px">
+            <img src="./bili.png" width="170px">
           </a>
           <p >Bilibili Homepage</p>
          </div>
 
-         <div style="display:inline-block; vertical-align: middle; margin-left: 80px; margin-right: 80px;">
+         <div style="display:inline-block; vertical-align: middle; margin-left: 4%; margin-right: 4%;">
           <a href="https://github.com/Tonymisaka" target="_blank">
-            <img src="./GitHub-Emblem.png" width="220px">
+            <img src="./GitHub-Emblem.png" width="200px">
           </a>
           <p>Github Homepage</p>
          </div>
@@ -99,7 +139,7 @@
 
       <!--musicIntro + music《only my railgun》-->
       <div>
-        <h2 style="color: rgb(79, 41, 168); text-align: center;margin-top: 10%; ">
+        <h2 style="color: rgb(79, 41, 168); text-align: center;margin-top: 120px; ">
            Please enjoy Haitian Xu's favourite music
         </h2>
         <h2 style="color: rgb(255, 255, 255); text-align: center; text-shadow:3px 3px 3px black;">
@@ -211,7 +251,8 @@
            [1.11.2022] "Add email and telephone links to about author"<br>
            [1.12.2022] "Add inline block style to the directive bar to fit differnt view" "Update web links with inline block style and english" "add english version to directive bar"<br>
            [1.13.2022] "Add background to all the pages"<br>
-           [1.15.2022] "Change the margin size of the Life&Tech blog unit and update life blog" "Update video section to recent fun event" "Update margin display to percentage"
+           [1.15.2022] "Change the margin size of the Life&Tech blog unit and update life blog" "Update video section to recent fun event" "Update margin display to percentage"<br>
+           [1.16.2022] "Use form to create a search bar on the front page" "replace baidu link with youtube homepage"
          </p>
         </div>
       </div>
