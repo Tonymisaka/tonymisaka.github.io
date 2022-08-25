@@ -20,13 +20,83 @@ body{
          color: rgb(92, 58, 146);
    }
 
+
+   #bsearch {
+    border-radius:80px;
+    height: 46px;
+    width:50%;
+    background-color: rgb(255, 255, 255);
+    border:0px;
+    box-shadow: rgb(216, 216, 216)  0px 0px 4px;
+    text-indent:25px;
+    font-size:18px;
+    transition-property: box-shadow;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+
+}
+
+#bsearch:hover {
+ box-shadow: rgb(167, 167, 167)  0px 0px 10px;
+ transition-property: box-shadow;
+ transition-duration: 0.15s;
+ transition-timing-function: ease-in-out;
+}
+
+#bsubmit{
+         margin-bottom: -9px;  
+         border-radius:50px;
+         height: 50px;
+         width:100px;
+         border:9px;
+         font-size: 15px;
+         background-color: rgb(255, 255, 255);
+         box-shadow: rgb(211, 211, 211) 0px 0px 4px;
+         transition-property: width, box-shadow;
+         transition-duration: 0.15s;
+         transition-timing-function: ease-in-out;
+}
+
+#bsubmit:hover {
+         width:110px;
+         box-shadow: rgb(167, 167, 167) 0px 0px 10px;
+         transition-property: width, box-shadow;
+         transition-duration: 0.15s;
+         transition-timing-function: ease-in-out;
+}
+
+   .nav{
+       font-size: 33px;
+       transition-property: color, font-size;
+       
+       transition-duration: 0.1s;
+       transition-timing-function: ease-in-out;
+       
+
+   }
+
    .nav:hover {
           color:rgb(57, 176, 176);
-    
+          font-size:35px;
+     
+          transition-property: color, font-size;
+          transition-duration: 0.1s;
+          transition-timing-function: ease-in-out;
+   }
+
+   
+   .wh {
+       transform:scale(1);
+       transition-duration: 0.1s;
+       transition-property: transform;
+       transition-timing-function: ease-in-out;
+
    }
 
    .wh:hover {
-        transform: scale(1.5);
-
-   }
-
+       transform: scale(1.5);
+       transition-duration: 0.1s;
+       transition-property: transform;
+       transition-timing-function: ease-in-out;
+   
+       }

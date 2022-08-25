@@ -14,39 +14,39 @@
   <body>
     
      <!--导航栏-->
-      <div>
-          <div>
+    <header>
+          <nav>
             <div style="display: inline-block;">
               <img src="./LOFO.png"  width="390px" style="vertical-align: middle;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
              </div>
              <div style="text-align: center; display: inline-block; vertical-align:6px; margin-left: 20px; margin-right: 20px;">
-               <a href="./index.html" style="vertical-align: middle; font-size: 33px; "class="nav"><b>HomePage</b></a>
+               <a href="./index.html" style="vertical-align: middle; "class="nav"><b>HomePage</b></a>
          
              </div>
 
              <div style="text-align: center; display: inline-block; vertical-align:6px; margin-left: 20px; margin-right: 20px;">
-              <a href="./Project.html" style="vertical-align: middle; font-size: 33px; "class="nav">Project</a>
+              <a href="./Project.html" style="vertical-align: middle;  "class="nav">Project</a>
              </div>
 
              <div style="text-align: center; display: inline-block;vertical-align:6px; margin-left: 20px; margin-right: 20px;">
-               <a href="./TechBlog.html" style="vertical-align: middle; font-size: 33px;"class="nav">Mixed Technical Blog</a>
+               <a href="./TechBlog.html" style="vertical-align: middle; "class="nav">Mixed Technical Blog</a>
             
              </div>
              <div style=" text-align: center; display: inline-block; vertical-align:6px;  margin-left: 20px; margin-right: 20px;">
-               <a href="./LifeBlog.html" style="vertical-align: middle; font-size: 33px;"class="nav">Daily Life Blog</a>
+               <a href="./LifeBlog.html" style="vertical-align: middle; "class="nav">Daily Life Blog</a>
         
              </div>
              <div style="text-align: center; display: inline-block; vertical-align:6px;  margin-left: 20px; margin-right: 20px;">
-               <a href="./index.html#author" style="vertical-align: middle; font-size: 33px;"class="nav">About the author</a> 
+               <a href="./index.html#author" style="vertical-align: middle; "class="nav">About the author</a> 
             
              </div>
              <div style="text-align: center; display: inline-block; vertical-align:-25px;  margin-left: 20px; margin-right: 20px;"class="nav">
-              <a href="http://www.tonymisaka.cn" style="vertical-align: middle; font-size: 33px;"><img src="./CNFlag.png" width="33px" height="20px"></a> 
+              <a href="http://www.tonymisaka.cn" style="vertical-align: middle; "><img src="./CNFlag.png" width="33px" height="20px"></a> 
               <p style="margin-top: 0px;font-size: 10px;">国服切换<br>China Homepage</p>
            
             </div>
 
-          </div>
+          </nav>
           <div >  
                <h1 style="text-align: center; color: rgb(70, 110, 170); vertical-align: auto; text-shadow:4px 4px 4px rgb(255, 255, 255); font-size: 45px;">
                 Welcome to the Personal Web Page of Haitian Xu 
@@ -54,37 +54,19 @@
     
           </div>
     
-      </div>
+    </header>
 
+<!--主体部分-->
 <!--表单使用谷歌搜索试验-->
-</form>
+<main>
 <div style="text-align: center; margin-top: 7%; ">
   <form action="https://www.google.com/search" method="get" target="_blank">
-      <img src="./GGGO.gif" width="100px" style="margin-bottom: -36px;">&nbsp;&nbsp;
+      <img src="./GGGO.gif" width="100px" style="margin-bottom: -36px; border-radius: 40%; ">&nbsp;&nbsp;
       
-      <input type="text" name="q" placeholder=" 请输入搜索内容 Please enter the search keyword"style="
-      border-radius:80px;
-      height: 47px;
-      width:50%;
-      background-color: rgb(255, 255, 255);
-     border:0px;
-     box-shadow: rgb(216, 216, 216)  0px 0px 8px;
-     text-indent:25px;
-     font-size:18px;
-     ">
+      <input  id="bsearch" type="text" name="q" placeholder=" 请输入搜索内容 Please enter the search keyword">
      &nbsp;
 
-      <input type="submit" name="submit" value="Search 搜索" id="sea" style="  
-      margin-bottom: -9px;  
-      border-radius:50px;
-      height: 50px;
-      width:100px;
-      border:9px;
-      font-size: 15px;
-     background-color: rgb(255, 255, 255);
-     box-shadow: rgb(211, 211, 211) 0px 0px 8px;
-
-     ">
+      <input id="bsubmit" type="submit" name="submit" value="Search 搜索"  >
   </form>
 
 </div>
@@ -205,7 +187,9 @@
            </div>
          </div>
         </div>
-      
+</main>
+
+<footer>
       <!--关于作者-->
       <div id="author">
         <hr style="margin-top: 100px;">
@@ -254,7 +238,10 @@
            [7.5.2022] "Update icon on each sub page" "create new part--project"<br>
            [7.27.2022] "Update latest fun event & small adjustion"<br>
            [8.4.2022] "separate the main page Inner CSS to a individual CSS document" <br>
-           [8.6.2022] "add hover color effects on the navigation bar button"
+           [8.6.2022] "add hover color effects on the navigation bar button"<br>
+           [8.7.2022] "Update new three songs" <br>
+           [8.22.2022] "Update transiton anime to web direction and navigation" <br>
+           [8.23.2022] "Add html5 elements"
          </p>
         </div>
       </div>
@@ -267,5 +254,6 @@
           <img src="./wec.jpg" height="300px" width="215px" class="wh">
          </div>
       </div>
+    </footer>
   </body>
   </html>
