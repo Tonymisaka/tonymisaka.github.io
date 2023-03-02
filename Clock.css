@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("./wallpaper1.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-transition:all 1s linear;
+    transition: all 1s linear;
+}
+
+.bigbox{
+    width:50%;
+    padding: 18% 0px;
+    text-align: center;
+    display:inline-block;
+}
+
+.comments{
+    width:40%;
+    padding: 300px 0px;
+    text-align: center;
+    display:inline-block;
+    margin-left: 9%;
+}
+
+#into {
+   color:white;
+   text-align: left;
+   margin-left: 100px;;
+   margin-bottom: 10px;;
+
+}
+textarea{
+       border-radius: 30px;
+       background-color: rgba(233, 233, 233, 0.2);
+       padding:10px 10px;
+       border-color: rgba(0,0,0,0);
+       border-width:1.9px;
+       color:aliceblue;
+}
+
+.sumb{
+  background-color: rgba(109, 109, 109, 0.3);
+  color:aliceblue;
+  border-color: rgba(0,0,0,0);
+  width:100px;
+  line-height: 30px;
+  border-radius: 20px;
+  font-size: 15px;
+
+}
+.sumb:hover{
+    background-color: rgba(236, 236, 236, 0.5);
+    color:rgb(0, 0, 0);
+   
+    width:100px;
+    line-height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+  
+  }
+
+#timee{
+    font-size:115px;
+    color:aliceblue;
+
+}
+
+#datee{
+    font-size: 40px;;
+    color:aliceblue
+}
+
+#linkk{
+    font-size: 25px;
+    padding: 200px 0px;
+    color:aquamarine
+}
+
+#linkk a{
+    color:rgb(255, 255, 255)
+}
+
+#linkk a:hover{
+    color:rgb(82, 253, 230)
+}
+
+.divv{
+    color:aliceblue;
+    margin-bottom: 10px;;
+}
+
+.divv p{
+   display:inline-block;
+    background-color: rgba(85, 85, 85, 0.5);
+    text-align: left;
+    border-radius: 10px;
+    width:55%;
+    padding:5px 10px;
+    overflow: hidden;
+}
+
+.divv span{
+    background-color: rgba(107, 107, 107, 0.5);
+    border-radius: 80px;
+    width:70px;
+    padding:5px 10px;
+    margin-left: 10px;;
+}
+
+.divv span:hover{
+    background-color: rgba(196, 196, 196, 0.5);
+
+}

@@ -5,6 +5,7 @@
             Haitian Xu's Homepage - U.S.
         </title>
         <meta charset="UTF-8">
+        <meta name="author" content="Haitian Xu">
         <meta name="keywords" content="HaitianXu,Haitian Xu,徐海天,徐海天的主页,徐海天的博客,徐海天的项目,徐海天的主页美服官网,Tonymisaka,Tonymisaka御坂凛,御坂凛,Haitian Xu Page">
         <meta name="description" content="Welcome to Haitian's CyberWorld!!">
         <link href="./favicon.png" type="image/png" rel="icon" size="32x32">
@@ -13,73 +14,44 @@
   </head>
   <body>
     
-     <!--导航栏-->
+     <!--navigator-->
     <header>
-          <nav>
-            <div style="display: inline-block;">
-              <img src="./LOFO.png"  width="390px" style="vertical-align: middle;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-             </div>
-             <div style="text-align: center; display: inline-block; vertical-align:6px; margin-left: 20px; margin-right: 20px;">
-               <a href="./index.html" style="vertical-align: middle; "class="nav"><b>HomePage</b></a>
-         
-             </div>
+          <div class="mnav" id = "nHome">
+              <script src = "mainNav.js"></script>
+          </div>
 
-             <div style="text-align: center; display: inline-block; vertical-align:6px; margin-left: 20px; margin-right: 20px;">
-              <a href="./Project.html" style="vertical-align: middle;  "class="nav">Project</a>
-             </div>
-
-             <div style="text-align: center; display: inline-block;vertical-align:6px; margin-left: 20px; margin-right: 20px;">
-               <a href="./TechBlog.html" style="vertical-align: middle; "class="nav">Mixed Technical Blog</a>
-            
-             </div>
-             <div style=" text-align: center; display: inline-block; vertical-align:6px;  margin-left: 20px; margin-right: 20px;">
-               <a href="./LifeBlog.html" style="vertical-align: middle; "class="nav">Daily Life Blog</a>
-        
-             </div>
-             <div style="text-align: center; display: inline-block; vertical-align:6px;  margin-left: 20px; margin-right: 20px;">
-               <a href="./index.html#author" style="vertical-align: middle; "class="nav">About the author</a> 
-            
-             </div>
-             <div style="text-align: center; display: inline-block; vertical-align:-25px;  margin-left: 20px; margin-right: 20px;"class="nav">
-              <a href="http://www.tonymisaka.cn" style="vertical-align: middle; "><img src="./CNFlag.png" width="33px" height="20px"></a> 
-              <p style="margin-top: 0px;font-size: 10px;">国服切换<br>China Homepage</p>
-           
-            </div>
-
-          </nav>
           <div >  
                <h1 style="text-align: center; color: rgb(70, 110, 170); vertical-align: auto; text-shadow:4px 4px 4px rgb(255, 255, 255); font-size: 45px;">
                 Welcome to the Personal Web Page of Haitian Xu 
-                </h1>
-    
+               </h1>
           </div>
     
     </header>
 
-<!--主体部分-->
-<!--表单使用谷歌搜索试验-->
+<!--main-->
 <main>
+
+ <!--Google Search--> 
 <div style="text-align: center; margin-top: 7%; ">
   <form action="https://www.google.com/search" method="get" target="_blank">
       <img src="./GGGO.gif" width="100px" style="margin-bottom: -36px; border-radius: 40%; ">&nbsp;&nbsp;
-      
       <input  id="bsearch" type="text" name="q" placeholder=" 请输入搜索内容 Please enter the search keyword">
-     &nbsp;
-
+      &nbsp;
       <input id="bsubmit" type="submit" name="submit" value="Search 搜索"  >
   </form>
-
 </div>
-      <!--近期新闻展示-->
+
+      <!--News Display-->
       <div style="margin-top: 50px;">
         <h1 style="text-align:center; color:rgb(90, 149, 204)">
             <span style="color:rgb(63, 170, 134)">News : </span>
-            Band New Chinese Server version of Haitian's homepage！！<br>
+           xxxxxxxxx！！<br>
              Welcome to the <a href="http://www.tonymisaka.cn">www.tonymisaka.cn</a>
         </h1>
       </div>
      </div>
-      <!--个人网页指引-->
+
+      <!--Web Direction-->
       <div style="text-align: center; margin-top: 15%; margin-bottom: 10%;" > 
          <div style="display:inline-block; vertical-align: middle; margin-left: 2.8%; margin-right: 2.8%;" class="wh">
            <a href="https://www.baidu.com" target="_blank">
@@ -110,10 +82,10 @@
          </div>
       </div>
      
-      <!--近期活动视频展示-->
+      <!--Recenty Activity-->
       <div>
         <h3 style="color: rgb(41, 107, 168); text-align: center;margin-top: 150px; font-size: 30px;">
-        Recent Fun Event : <b>Summer Break Travel to New York City</b> [Latest in 2022.7.9]
+        Recent Fun Event : <b>Travel to New York City</b>
         </h3>
  
         <div style="text-align: center; ">
@@ -190,28 +162,24 @@
 </main>
 
 <footer>
-      <!--关于作者-->
+      <!--About Author-->
       <div id="author">
-        <hr style="margin-top: 100px;">
-        <h2 style="text-align: center; color: rgb(77, 77, 77);">
-          About the author
+         <h2 style="text-align: center; color: rgb(77, 77, 77); font-size: xx-large;">
+            About the author
+         </h2>
 
-        </h2>
-        <div style="color: rgb(77, 77, 77); text-align: center;">
-      
-          <p> 
-            Haitian Xu, Chinese, a student at University of Wisconsin-madison, undergraduate Computer Science Major. He is focusing on Java Backend Development, Web whole stack Development. He is famous of Java, HTML, CSS, js language
-          </p>
-
-          <div>
-           Contact Email: <a href="mailto:hxu339@wisc.edu?subject=homepage%20email">hxu339@wisc.edu</a>
-          </div>
-        </div>
+         <div id= "acontent"style="color: rgb(77, 77, 77); text-align: center; font-size:22px;">
+            <p> 
+               Haitian Xu, student at University of Wisconsin-madison, undergraduate Computer Science Major. He is focusing on Web whole stack Development. He is famous of tools: Java, HTML, CSS, JavaScript, Python, C, GIT, Github
+            </p>
+          
+            Contact Email: <a href="mailto:hxu339@wisc.edu?subject=homepage%20email">hxu339@wisc.edu</a>
+         </div>
+        
       </div>
 
-      <!--开发日志-->
-      <div>
-       <hr style="margin-top: 50px;">
+      <!--Log-->
+      <div style = "display:none">
        <h2 style="text-align: center; color:rgb(73, 73, 73)">Development log</h2>
        <div style="text-align: center;">
          <p>
@@ -241,15 +209,17 @@
            [8.6.2022] "add hover color effects on the navigation bar button"<br>
            [8.7.2022] "Update new three songs" <br>
            [8.22.2022] "Update transiton anime to web direction and navigation" <br>
-           [8.23.2022] "Add html5 elements"
+           [8.23.2022] "Add html5 elements"<br>
+           [10.10.2022] "Refine Logo to new one"<br>
+           [12.1.2022] "Add JS to refine nav bar" <br>
+           [1.12.2023] "Update projects"
          </p>
         </div>
       </div>
 
       <!--尾页-->
-      <div>
-         <hr style="margin-top: 150px;">
-         <h1 style="color: rgb(41, 107, 168); text-align: center; ">Thanks for your patience, Updating in progress ！！</h1>
+      <div id = "lastBlock">
+         <h1 style="color: rgb(41, 107, 168); text-align: center; ">Thanks for your patience, Updating in progress !!</h1>
          <div style="text-align: center;">
           <img src="./wec.jpg" height="300px" width="215px" class="wh">
          </div>

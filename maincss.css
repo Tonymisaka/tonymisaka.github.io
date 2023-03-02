@@ -1,9 +1,15 @@
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
 body{
     background-image: url("./backk.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-   }
+}
    
    form {
            font-size: 20px;
@@ -20,6 +26,10 @@ body{
          color: rgb(92, 58, 146);
    }
 
+   #mlogo img{
+       margin: 2px 20px;
+
+   }
 
    #bsearch {
     border-radius:80px;
@@ -34,7 +44,7 @@ body{
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
 
-}
+   }
 
 #bsearch:hover {
  box-shadow: rgb(167, 167, 167)  0px 0px 10px;
@@ -100,3 +110,19 @@ body{
        transition-timing-function: ease-in-out;
    
        }
+
+    #lastblock {
+        margin-top: 100px;
+
+    }
+
+    #author {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    #author #acontent{
+        margin:0 300px;
+
+
+    }
