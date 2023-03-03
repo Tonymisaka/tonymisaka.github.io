@@ -36,8 +36,8 @@ function makePro(title, content, date, link){
      
      makePro(title, content, date, link);
 
-     title = "Beijing TianZhengHengTong Technology Company Website";
-     content = "For this project, I mainly in charge of designing and implement the webiste of one start up conmpany Beijing TianZhengHengTong technology. By typically using HTML, CSS, Javascript, I realize the design of their companies' main page, product selling page and product intoductions"
+     title = "Kunshan BestVision Technology Company Website";
+     content = "For this project, I mainly in charge of designing and implement the webiste of one start up conmpany Kunshan Bestvision technology. By typically using HTML, CSS, Javascript, I realize the design of their companies' main page, product selling page and product intoductions"
      date = "6.2022 - 9.2022"
      link = "http://43.143.101.16/"
 

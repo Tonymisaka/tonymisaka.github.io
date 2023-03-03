@@ -1,10 +1,11 @@
 .largebox{
-    margin:20px 400px;
+    margin:20px 20%;
 }
 
 h1{
     color:rgb(21, 141, 197);
     font-weight: 700;
+
 }
 
 #intro{
@@ -22,7 +23,7 @@ li{
 }
 
 h2{
-    line-height: 0px;;
+    
     color:rgb(54, 54, 54);
     margin-top: 2px;
 }
