@@ -59,6 +59,7 @@ textt.addEventListener('mouseleave', function(){
     textt.style.backgroundColor = "rgba(233, 233, 233, 0.2)";
 
 })
+
 sumb.addEventListener('click', function(){
     if(!textt.value==""){
             let content = textt.value;
@@ -73,7 +74,6 @@ sumb.addEventListener('click', function(){
         x.parentNode.parentNode.removeChild(div);
     })
     }
-
 
     textt.value = "";
 });
