@@ -2,6 +2,9 @@ let bigbox = document.querySelector(".bigbox");
 let paperlist = ["./wallpaper1.jpg", "./wallpaper2.jpg", "./wallpaper3.jpg", "./wallpaper4.jpg", "./wallpaper5.jpg", "./wallpaper6.jpg", "./wallpaper7.jpg"];
 let dayList = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let body = document.querySelector("body");
+let comments = document.querySelector(".comments");
+let textarea = document.querySelector("textarea");
+
 setInterval(function(){
     let date = new Date();
     let hours = date.getHours();
@@ -30,8 +33,7 @@ setInterval(function(){
 }, 1000);
 
 
- 
- let num = -1;
+let num = -1;
 let imgg = new Image();
     setInterval(function(){
         ++num;
@@ -84,3 +86,11 @@ sumb.addEventListener('click', function(){
 
     textt.value = "";
 });
+
+if(window.innerWidth<window.innerHeight){
+    bigbox.style.width = "100%";
+    bigbox.style.paddingBottom = "2%";
+    comments.style.width = "100%";
+    comments.style.padding = "30px 0px";
+    textarea.cols = "50";
+}
