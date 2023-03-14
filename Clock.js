@@ -50,11 +50,11 @@ let imgg = new Image();
     }, 5000);
 
 
-
 let commbox = document.querySelector(".comments");
 let sumb = document.querySelector(".sumb");
 let textt = document.querySelector(".textt");
 let com = document.querySelector(".com")
+textt.value = "";
 textt.addEventListener('click', function(){
     textt.style.borderColor = "rgba(0,0,0,0)";
     textt.style.outline = "none";
@@ -94,3 +94,15 @@ if(window.innerWidth<window.innerHeight){
     comments.style.padding = "30px 0px";
     textarea.cols = "50";
 }
+
+textarea.addEventListener("keydown", function(e){
+    if(e.key == "Enter"){
+        sumb.click();
+    }
+});
+    
+
+
+
+
+
