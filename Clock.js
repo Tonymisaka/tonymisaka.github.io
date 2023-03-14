@@ -32,16 +32,20 @@ setInterval(function(){
 
  
  let num = -1;
-window.addEventListener('load', function(){
+let imgg = new Image();
     setInterval(function(){
-        num++;
-        body.style.backgroundImage = `url(${paperlist[num]})`;
+        ++num;
+        
+        imgg.src = paperlist[num];
+        imgg.addEventListener("load", function(){
+           body.style.backgroundImage = `url(${paperlist[num]})`;
 
+        })
+        
         if (num == 6){
-            num = -1;
+            num = 0;
         }
-}, 5000);
-});
+    }, 5000);
 
 
 
