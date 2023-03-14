@@ -29,17 +29,20 @@ setInterval(function(){
 
 }, 1000);
 
+body.style.backgroundImage = url(paperlist[0]);
+ 
  let num = -1;
+window.addEventListener('load', function(){
+    setInterval(function(){
+        num++;
+        body.style.backgroundImage = `url(${paperlist[num]})`;
 
-setInterval(function(){
-    num++;
-    body.style.backgroundImage = `url(${paperlist[num]})`;
-
-    if (num == 6){
-        num = -1;
-    }
-
+        if (num == 6){
+            num = -1;
+        }
 }, 5000);
+});
+
 
 
 let commbox = document.querySelector(".comments");
