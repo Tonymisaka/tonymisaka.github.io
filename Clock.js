@@ -29,7 +29,7 @@ setInterval(function(){
 
 }, 1000);
 
-body.style.backgroundImage = url(paperlist[0]);
+
  
  let num = -1;
 window.addEventListener('load', function(){
