@@ -1,5 +1,5 @@
 .bigbox{
-    margin:20px 200px;
+    margin:20px 10%;
 }
 h1{
     color:rgb(113, 122, 126);
@@ -22,12 +22,12 @@ p{
     width:30%;
     margin-right: 5%;
     margin-bottom: 4%;
-    transition:all 0.2s ease-in-out;
+    transition:transform 0.2s ease-in-out;
 }
 
 .ulbox li:hover{
-    transform:scale(1.55, 1.55);
-    transition:all 0.2s ease-in-out;
+    transform:scale(1.5, 1.5);
+    transition:transform 0.2s ease-in-out;
 }
 
 .ulbox li img {
