@@ -22,14 +22,16 @@ p{
     width:30%;
     margin-right: 5%;
     margin-bottom: 4%;
-    transition-property: transform;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.ulbox li:hover{
+    transform:scale(1.55, 1.55);
+    transition:all 0.2s ease-in-out;
 }
 
 .ulbox li img {
     border-radius: 15px;
-
 }
 
 
