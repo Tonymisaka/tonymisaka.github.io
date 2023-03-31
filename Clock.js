@@ -5,6 +5,7 @@ let body = document.querySelector("body");
 let comments = document.querySelector(".comments");
 let textarea = document.querySelector("textarea");
 
+//make time
 setInterval(function(){
     let date = new Date();
     let hours = date.getHours();
@@ -32,7 +33,7 @@ setInterval(function(){
 
 }, 1000);
 
-
+//make background
 let num = -1;
 let imgg = new Image();
     setInterval(function(){
@@ -49,18 +50,18 @@ let imgg = new Image();
         }
     }, 5000);
 
-
+//make comments
 let commbox = document.querySelector(".comments");
 let sumb = document.querySelector(".sumb");
 let textt = document.querySelector(".textt");
 let com = document.querySelector(".com")
-textt.value = "";
+textt.value = "";//remove blank
 textt.addEventListener('click', function(){
     textt.style.borderColor = "rgba(0,0,0,0)";
     textt.style.outline = "none";
     textt.style.backgroundColor = "rgba(233, 233, 233, 0.4)";
 
-})
+})//add interactive effects
 
 textt.addEventListener('mouseleave', function(){
     textt.style.borderColor = "rgba(0,0,0,0)";
@@ -71,29 +72,37 @@ textt.addEventListener('mouseleave', function(){
 
 sumb.addEventListener('click', function(){
     if(!textt.value==""){
-            let content = textt.value;
+            let content = textt.value;//save input
     let div = document.createElement("div");
     div.className = "divv";
     div.innerHTML = `
         <p>${content}</p><span>delete</span>
     `;
     com.insertBefore(div, com.children[0]);
-    let x = div.children[1];
+    let x = div.children[1];//track delete button
     x.addEventListener("click", function(){
         x.parentNode.parentNode.removeChild(div);
     })
     }
 
-    textt.value = "";
+    textt.value = "";//remove input
 });
 
+window.addEventListener("resize", function(){
 if(window.innerWidth<window.innerHeight){
     bigbox.style.width = "100%";
     bigbox.style.paddingBottom = "2%";
     comments.style.width = "100%";
     comments.style.padding = "30px 0px";
     textarea.cols = "50";
+}else{
+    bigbox.style.width = "50%";
+    bigbox.style.paddingBottom = "0%";
+    comments.style.width = "40%";
+    comments.style.padding = "300px 0px";
+    textarea.cols = "50";
 }
+})
 
 textarea.addEventListener("keydown", function(e){
     if(e.key == "Enter"){
