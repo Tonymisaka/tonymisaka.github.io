@@ -40,12 +40,12 @@ let imgg = new Image();
         
         imgg.src = paperlist[num];
         imgg.addEventListener("load", function(){
-           body.style.backgroundImage = `url(${paperlist[num]})`;
+           body.style.backgroundImage = `url(${imgg.src})`;
 
         })
         
         if (num == 6){
-            num = 0;
+            num = -1;
         }
     }, 5000);
 
